@@ -1,2 +1,2 @@
 # Web Development Basics
-In-Class examples and sasignment solutions
+In-Class examples and assignment solutions
