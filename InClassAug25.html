@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                margin: 0px;
+            }
+            div {
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+            }
+            .row {
+                height: 33.33%;
+            }
+            img {
+                width: 100px;
+            }
+            #area5 {
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row" style="background-color: #ffb97e;">
+            Content Area 1
+        </div>
+        <div class="row">
+            <div style="background-color: #8fbbd8;">
+                Content Area 2
+            </div>
+            <div style="background-color: #7fd9a6;">
+                Content Area 3
+            </div>
+        </div>
+        <div class="row" id="row3" >
+            <div style="background-color: #e59687;">
+                Content Area 4
+            </div>
+            <div id="area5" style="background-color: #e5cb76;">
+                <img 
+                    src="https://wildlifecoexistence.org/wp-content/uploads/2020/12/Koala-portrait-scaled.jpg">
+            </div>
+            <div style="background-color: #aeaae5;">
+                Content Area 6
+            </div>
+        </div>
+    </body>
+</html>
